@@ -18,11 +18,17 @@ html,body{
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+main{
+    background-color: #1C1B19;
+    overflow-x: hidden;
+}
 #page1{
     height: 100vh;
     width: 100vw;
     background-color: #C6BEB4;
     position: relative;
+    overflow-x: hidden;
+   
 }
 #nav{
     height: 80px;
@@ -33,10 +39,12 @@ html,body{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #838181;
+   
 }
 #nav img{
     height: 25px;
     width: 30%;
+    
 }
 #nav h5{
     font-size: 18px;
@@ -170,4 +178,15 @@ html,body{
      color: #2f2f2f;
      margin-top: 10px;
     
+}
+#page1 h1{
+font-size: 550px;
+letter-spacing: -25px;
+font-weight: 200;
+font-family: canopee;
+background-color: #1C1B19;
+color:#C3BBB2 ;
+line-height: 450px;
+width: 95%;
+margin-left: 2%;
 }
