@@ -1,0 +1,173 @@
+ @font-face {
+src:url(./616fd1dd00cf6c70f978fc69_Canopee.ttf);
+font-family: canopee;
+ }
+
+  @font-face {
+src:url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+font-family: domaine;
+
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #C6BEB4;
+    position: relative;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: #C6BEB4;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #838181;
+}
+#nav img{
+    height: 25px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 18px;
+    font-weight: 200;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#elems{
+   
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    
+    
+}
+#elem2{
+    width: 28%;
+    height: 100%;
+     border-right: 1px solid #838181;
+     padding: 20px 60px;
+     text-align: center;
+      border-left: 1px solid #838181;
+   
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+    
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+   
+}
+
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+     border: 1px solid black;
+}
+#image-div img:hover{
+    scale: 1.1;
+}
+#elem1 h4{
+    font-size: 23 px;
+    margin-top: 10px;
+    font-family:canopee ;
+    
+}
+#elem1 p{
+    font-size: 16px;
+    font-family: domaine;
+    color: #605c5c;
+    margin-top: 10px;
+    
+    font-weight: 540;
+    line-height: normal;
+}
+#elem1 h4 span{
+    background-color:#B83C12;
+    color: #C6BEB4;
+    margin-left: 5px;
+    padding: 2px 3px;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#elem3 h4{
+    font-size: 23 px;
+    margin-top: 10px;
+    font-family:canopee ;
+    
+}
+#elem3 p{
+    font-size: 16px;
+    font-family: domaine;
+    color: #605c5c;
+    margin-top: 10px;
+    
+    font-weight: 540;
+    line-height: normal;
+}
+#elem3 h4 span{
+    background-color:#B83C12;
+    color: #C6BEB4;
+    margin-left: 5px;
+    padding: 2px 3px;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#elem2 h2{
+    font-family:canopee ;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 15px;
+    
+}
+#elem2 h3{
+    font-family:domaine;
+    font-size: 35px;
+     font-weight: 100;
+     color: #2f2f2f;
+    
+}
+#elem2 h6{
+    font-family:domaine;
+    font-size: 20px;
+     font-weight: 100;
+     color: #2f2f2f;
+     margin-top: 10px;
+    
+}
